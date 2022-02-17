@@ -918,7 +918,7 @@ function Luminosity.new(Name, Header, Icon)
                         Name = "Logo",
                         BackgroundTransparency = 1,
                         Size = UDim2.new(0, 30, 0, 30),
-                        Image = Icon and "rbxassetid://" .. tostring(Icon) or "",
+                        Image = Icon and "rbxassetid://" .. tostring(Icon) or "413422291",
                         ScaleType = Enum.ScaleType.Fit
                     }),
                     Utility.new("TextLabel", {
